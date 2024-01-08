@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#backround {
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    width: 400px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+div {
+    font-size: 30px;
+}
+button {
+    font-size: 1rem;
+    cursor: pointer;
+}
+#div16 {
+    font-size: 30px;
+}
+#output {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 0%;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#div1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#div17 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.leftButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    margin: 2px;
+}
+.rightButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    margin: 2px;
+}
+#mainOutput {
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 90%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.leftButtons:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+.rightButtons:hover {
+    background-color: rgba(255, 165, 0, 0.8);
+}
